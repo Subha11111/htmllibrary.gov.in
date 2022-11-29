@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: rgb(255, 242, 226);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none;
+}
+
+nav ul {
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 12px;
+    color: white;
+}
+
+.back {
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: rgb(165, 212, 243);
+    width: 100px;
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 0 rgb(75, 132, 225);
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.back:hover {
+    box-shadow: inset 100px 0 0 0 rgb(75, 132, 225);
+    color: white;
+}
+
+.form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.112);
+    width: 100%;
+    height: 596px;
+}
+
+.sign {
+    width: 500px;
+    height: 323px;
+    background-color: rgba(255, 255, 255, 0.496);
+    border-radius: 5px;
+}
+
+.sign img{
+    padding-top: 10px;
+}
+
+input {
+    border-radius: 50px;
+    text-align: center;
+    width: 269px;
+    height: 40px;
+    border-color: transparent;
+    margin: 12px;
+}

@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: rgb(255, 242, 226);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 12px;
+    color: white;
+}
+
+.nav ul li {
+    padding: 0 12px;
+    color: rgb(0, 0, 0);
+}
+
+.nav ul {
+    align-items: center;
+    height: 65px;
+    background-color: rgb(255, 242, 226);
+    list-style-type: none;
+    display: flex;
+}
+
+.amg img {
+    width: 68px;
+    padding: 0px 4px;
+}
+
+.amg {
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+}
+
+#BTN {
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: rgb(165, 212, 243);
+    width: 100px;
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 0 rgb(75, 132, 225);
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+}
+
+#BTN:hover {
+    box-shadow: inset 100px 0 0 0 rgb(75, 132, 225);
+    color: white;
+}
+
+.img {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 400px;
+    height: 200px;
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    box-shadow: inset 0 0 0 0 rgb(37, 37, 37);
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img .img2 {
+    text-align: center;
+    width: 280px;
+}
+
+.img:hover {
+    box-shadow: inset 400px 0 0 0 rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    font-size: 39px;
+}
+
+.c {
+    font-size: 16px;
+}
+
+.container {
+    margin-top: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 5px;
+    border-color: black;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    border: solid 4px rgb(29, 29, 29);
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+table:hover {
+    box-shadow: 0 1px 10px rgb(48, 48, 48);
+}
+
+.container {
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    font-size: 18px;
+}
+
+input[type="text"] {
+    text-align: center;
+    margin: 12px;
+    border-radius: 30px;
+    border-color: transparent;
+    height: 35px;
+    width: 280px;
+}
+
+input:hover {
+    box-shadow: 0 1px 10px grey;
+}
+
+.form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.112);
+    width: 100%;
+    height: 596px;
+}
+
+.sign {
+    width: 500px;
+    height: 537px;
+    background-color: rgba(255, 255, 255, 0.496);
+    border-radius: 5px;
+}
+
+.imgg {
+    margin-top: 10px;
+}
+
+fieldset {
+    width: 80%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+input[type="radio"] {
+    display: block;
+}
+
+.but {
+    margin-top: 14px;
+}
+
+select {
+    text-align: center;
+    margin: 12px;
+    border-radius: 30px;
+    border-color: transparent;
+    height: 30px;
+    width: 280px;
+    cursor: pointer;
+}
+
+select:hover {
+    box-shadow: 0 1px 10px grey;
+}
+
+.main {
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    box-shadow: inset 0 0 0 0 rgb(37, 37, 37);
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none;
+}
+
+.mai {
+    font-size: 16px;
+}
+
+.main:hover {
+    box-shadow: inset 500px 0 0 0 rgb(37, 37, 37);
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: ease-out 0.2s;
+}
+
+a:hover {
+    color: white;
+}
+
+.ie {
+    margin-left: 20px;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none
+}
+
+.ie img {
+    margin-left: 10px;
+}
+
+.ie:hover {
+    box-shadow: 0 1px 10px grey;
+    font-size: 20px;
+}
+
+.ranas {
+    border-radius: 10px;
+}
+
+.rana {
+    margin-top: 20px;
+    text-align: center;
+    width: 180px;
+    height: 260px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 25px;
+    border-radius: 10px;
+    border-radius: 10px;
+    transition: ease-out 0.8s;
+    outline: none;
+    border: none
+}
+
+.container2 {
+    margin-top: 30px;
+}
+
+.container3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.rana:hover {
+    box-shadow: inset 500px 0 0 0 rgb(37, 37, 37) , 0 1px 20px 0 grey;
+    color: white;
+}
+
+.ra {
+    font-size: 23px;
+}
+
+.s {
+    height: 165px;
+    border-radius: 10px;
+}
+
+.para {
+    color: rgb(38, 144, 158);
+}
+
+.center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="number"] {
+    text-align: center;
+    margin: 12px;
+    border-radius: 30px;
+    border-color: transparent;
+    height: 35px;
+    width: 200px;
+}
+
+.navnav {
+    transition: ease-out 0.2s;
+    outline: none;
+    border: none;
+    color: rgb(33, 93, 149);
+}
+
+.navnav:hover {
+    text-shadow: -2px 6px 3px rgb(173, 173, 173);
+}
+
+.i {
+    font-size: 30px;
+    color: rgb(121, 174, 224);
+}
+
+.computer {
+    display: flex;
+    text-align: right;
+    justify-content:right;
+    align-items: right;
+}
+
+.text {
+    display: flex;
+}
+
+.world {
+    border-radius: 10px;
+    width: 350px;
+    margin-left: 170px;
+    transition: ease-out 0.3s;
+    border: 4px solid rgb(227, 227, 227);
+}
+
+.textmain {
+    color: rgb(95, 171, 222);
+    font-size: 34px;
+}
+
+.text2 {
+    font-size: 28px;
+    transition: ease-out 0.3s;
+}
+
+.text2:hover {
+    text-shadow: -2px 5px 3px rgb(202, 202, 202);
+}
+
+.txt {
+    margin-left: 100px;
+}
+
+.mainpara {
+    font-size: 20px;
+}
+
+.comment {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+
+.riview {
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 6px;
+    margin: 20px 30px 0px 30px;
+    transition: ease-out 0.2s;
+}
+
+.computer img:hover {
+    box-shadow: 0 1px 10px rgb(115, 115, 115);
+}
+
+.riview:hover{
+    box-shadow: 0 1px 10px rgb(115, 115, 115);
+}
+
+.ri1 {
+    color: rgb(60, 60, 60);
+    font-size: 18px;
+}
+
+.r1m {
+    font-size:26px;
+    margin: 20px 30px 0px 30px;
+    text-align: left;
+    color: rgb(60, 60, 60);
+}
+
+.eng {
+    font-size:20px;
+    margin: 5px 30px 10px 30px;
+    text-align: left;
+    color: rgb(60, 60, 60);
+}
+
+.rm {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    transition: ease-out 0.3s;
+}
+
+.rm:hover{
+   text-shadow: -2px 5px 2px rgb(176, 176, 176);
+}
+
+.form1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.112);
+    width: 100%;
+    height: 596px;
+}
+
+input[type="email"] {
+    text-align: center;
+    margin: 12px;
+    border-radius: 30px;
+    border-color: transparent;
+    height: 35px;
+    width: 280px;
+}
+
+.sign1 {
+    width: 500px;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.496);
+    border-radius: 5px;
+}
+
+.imgamg {
+    margin-top: 15px;
+}
+
+textarea {
+    text-align: center;
+    margin: 12px;
+    border-radius: 50px;
+    border-color: transparent;
+    height: 75px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
